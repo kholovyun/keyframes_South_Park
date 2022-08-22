@@ -1,0 +1,560 @@
+.head {
+  position: relative;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -100px;
+  z-index: 2;
+}
+
+.head .face {
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.head .face .hat__container {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.head .face .hat__container .hat {
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  background: #10b8c4;
+}
+
+.head .face .hat__container .hat__border {
+  border-radius: 50%;
+  height: 200px;
+  background: #fee01c;
+  margin: 48px 0 0 -30px;
+  width: 300px;
+  z-index: 3;
+}
+
+.hat__circles {
+  height: 20px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 55px;
+  z-index: 5;
+}
+
+.hat__circles .hat__top {
+  border-radius: 50%;
+  background: #ffe11d;
+  width: 25px;
+  height: 15px;
+  position: absolute;
+}
+
+.hat__circles .circle__one {
+  top: 5px;
+  left: 1px;
+}
+
+.hat__circles .circle__two {
+  top: 1px;
+  left: 10px;
+}
+
+.hat__circles .circle__three {
+  top: 5px;
+  left: 13px;
+}
+
+.hat__circles .circle__four {
+  top: 3px;
+  left: 24px;
+}
+
+.hat__circles .circle__five {
+  top: 6px;
+  left: 33px;
+}
+
+.face__parts__container {
+  left: 0;
+  position: relative;
+  top: 0;
+  z-index: 4;
+}
+
+.face__parts__container .face__box {
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.face__parts__container .face__box .face__parts {
+  background: #fdd6aa;
+  border-radius: 50%;
+  height: 200px;
+  margin: 57px 0 0 -30px;
+  width: 306px;
+}
+
+.face__parts__container .face__box .face__parts .eyes {
+  height: 20px;
+  left: 50%;
+  margin: 0 0 0 -55px;
+  position: absolute;
+  top: 57px;
+  width: 160px;
+}
+
+.face__parts__container .face__box .face__parts .eyes .eye__container {
+  border-radius: 50%;
+  height: 31px;
+  left: 55px;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+  z-index: 5;
+}
+
+.face__parts__container .face__box .face__parts .eyes .eye {
+  background: none repeat scroll 0 0 #fff;
+  border: 2px solid #d8d2c7;
+  border-radius: 50%;
+  height: 65px;
+  position: absolute;
+  top: 2px;
+  width: 55px;
+  z-index: 6;
+  -webkit-animation: morganie 3s infinite step-start 0s;
+          animation: morganie 3s infinite step-start 0s;
+}
+
+.face__parts__container .face__box .face__parts .eyes .left {
+  left: 0px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.face__parts__container .face__box .face__parts .eyes .left .pupil {
+  right: 33px;
+}
+
+.face__parts__container .face__box .face__parts .eyes .right {
+  right: 30px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.face__parts__container .face__box .face__parts .eyes .right .pupil {
+  left: 33px;
+}
+
+.face__parts__container .face__box .face__parts .eyes .pupil {
+  background: none repeat scroll 0 0 #000000;
+  border-radius: 50%;
+  height: 6px;
+  position: absolute;
+  top: 25px;
+  width: 6px;
+  z-index: 7;
+}
+
+.face__parts__container .face__box .face__parts .mouth {
+  border-bottom: 2px solid #333333;
+  border-radius: 50%;
+  height: 12px;
+  bottom: 37px;
+  left: 50%;
+  margin: 0 0 0 -15px;
+  position: absolute;
+  width: 30px;
+  z-index: 8;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.face__parts__container .face__box .face__parts .chin {
+  border-bottom: 1px solid #333333;
+  border-radius: 50%;
+  bottom: 25px;
+  height: 12px;
+  left: 50%;
+  margin: 0 0 0 -23px;
+  position: absolute;
+  width: 46px;
+  z-index: 8;
+}
+
+.face__parts__container .face__box .face__parts .second__chin {
+  border-bottom: 1px solid #333333;
+  border-radius: 50%;
+  bottom: 13px;
+  height: 113px;
+  left: 50%;
+  margin: 0 0 0 -100px;
+  position: absolute;
+  width: 200px;
+  z-index: 8;
+}
+
+.erik__body {
+  background: #ed314c;
+  border-radius: 50%;
+  height: 155px;
+  left: 16.5px;
+  position: absolute;
+  top: 106px;
+  width: 310px;
+  z-index: 1;
+}
+
+.erik__body .shirt {
+  background: #ed314c;
+  border-radius: 50%;
+  height: 82px;
+  position: absolute;
+  width: 165px;
+  z-index: 2;
+}
+
+.erik__body .shirt__part__one {
+  bottom: -5px;
+  right: 10px;
+}
+
+.erik__body .shirt__part__two {
+  bottom: -5px;
+  left: 13px;
+}
+
+.erik__body .hand {
+  background: #ffe11d;
+  border-radius: 50%;
+  height: 45px;
+  position: absolute;
+  top: 68px;
+  width: 55px;
+  z-index: 3;
+}
+
+.erik__body .hand.left {
+  left: -14px;
+  -webkit-animation: taking__something 10s infinite;
+          animation: taking__something 10s infinite;
+}
+
+.erik__body .hand.left .hand__circle {
+  right: -7px;
+}
+
+.erik__body .hand.right {
+  right: -14px;
+}
+
+.erik__body .hand.right .hand__circle {
+  left: -7px;
+}
+
+.hand__circle {
+  background: #ffe11d;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  width: 15px;
+  z-index: 4;
+}
+
+.leg {
+  background: #7d4935;
+  height: 70px;
+  left: 80px;
+  position: absolute;
+  top: 205px;
+  width: 190px;
+  z-index: 0;
+}
+
+.foot {
+  background: #2d2b38;
+  border-radius: 38%;
+  border-top: 1px solid #2d2b38;
+  -webkit-box-shadow: -2px 6px 6px rgba(50, 50, 50, 0.42);
+          box-shadow: -2px 6px 6px rgba(50, 50, 50, 0.42);
+  bottom: -7px;
+  height: 11px;
+  position: absolute;
+  width: 120px;
+  z-index: 1;
+}
+
+.foot.left {
+  left: -25px;
+}
+
+.foot.right {
+  right: -25px;
+}
+
+.thigh {
+  background: #7d4935;
+  height: 58px;
+  position: absolute;
+  top: 10px;
+  width: 25px;
+  z-index: 1;
+}
+
+.thigh.left {
+  left: -22px;
+  -webkit-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+}
+
+.thigh.right {
+  right: -22px;
+  -webkit-transform: rotate(16deg);
+  transform: rotate(16deg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/school.png");
+  background-size: cover;
+}
+
+.erik {
+  height: 325px;
+  width: 300px;
+  position: relative;
+  top: 180px;
+}
+
+.second__emotion {
+  -webkit-animation: bad__eric__eyes 20s infinite step-start 0s;
+          animation: bad__eric__eyes 20s infinite step-start 0s;
+}
+
+.second__emotion .eye {
+  -webkit-animation: morganie 3s infinite step-start 0s;
+          animation: morganie 3s infinite step-start 0s;
+}
+
+.second__emotion .left:before {
+  content: "/";
+  font-size: 55px;
+  font-weight: 1000;
+  display: block;
+  -webkit-transform: rotate(-48deg);
+          transform: rotate(-48deg);
+  position: relative;
+  top: -75px;
+  left: -15px;
+}
+
+.second__emotion .right:before {
+  content: "/";
+  font-size: 55px;
+  font-weight: 1000;
+  display: block;
+  -webkit-transform: rotate(-168deg);
+          transform: rotate(-168deg);
+  position: relative;
+  top: -65px;
+  right: -10px;
+}
+
+.fa-fan {
+  font-size: 50px;
+  position: absolute;
+  top: -100px;
+  right: 30px;
+  color: #6f0b6e;
+  z-index: 6;
+  opacity: 0;
+  -webkit-animation: flower 19.7s infinite step-start 0s;
+          animation: flower 19.7s infinite step-start 0s;
+}
+
+.fa-fan:after {
+  content: "";
+  display: block;
+  height: 80px;
+  width: 4px;
+  position: relative;
+  right: -40px;
+  top: -20px;
+  background-color: #872385a1;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  z-index: 0;
+  -webkit-animation: flower 19.7s infinite step-start 0s;
+          animation: flower 19.7s infinite step-start 0s;
+}
+
+.fa-gun {
+  color: #421a0d;
+  font-size: 100px;
+  position: relative;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  top: -60px;
+  right: 60px;
+  opacity: 0;
+  -webkit-animation: gun 19.8s infinite step-start 0s;
+          animation: gun 19.8s infinite step-start 0s;
+}
+
+@-webkit-keyframes bad__eric__eyes {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bad__eric__eyes {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes morganie {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  15%,
+  95% {
+    opacity: 1;
+  }
+}
+
+@keyframes morganie {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  15%,
+  95% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes taking__something {
+  0% {
+    left: -14px;
+  }
+  90% {
+    left: -14px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  93% {
+    opacity: 1;
+  }
+  95% {
+    left: -45px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes taking__something {
+  0% {
+    left: -14px;
+  }
+  90% {
+    left: -14px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  93% {
+    opacity: 1;
+  }
+  95% {
+    left: -45px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes gun {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes gun {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flower {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flower {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
